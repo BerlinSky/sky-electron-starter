@@ -1,6 +1,6 @@
 const versionEl = document.querySelector('#version');
 
-versionEl.innnerText = process.versions.electron;
+versionEl.innerText = process.versions.electron;
 
 console.log(process.versions);
 
